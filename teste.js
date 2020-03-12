@@ -1,4 +1,4 @@
-/* 
+
  
 function addFavoriteBook(bookName) {
 
@@ -11,7 +11,7 @@ function addFavoriteBook(bookName) {
         console.log("It already exists");
 
     }
-
+ 
     function printFavoritBooks() {
         var a = favoriteBooks.length;
         console.log("livres" + " " + "favoris:" + a);
@@ -21,18 +21,5 @@ function addFavoriteBook(bookName) {
 
     } printFavoritBooks()
 
+} addFavoriteBook()
 
-} addFavoriteBook() */
-function addFavoriteBook(bookName) {
-    var favoriteBook = ["Saab", "Volvo", "BMW"];
-    var bookName = favoriteBook.includes("Great");
-    console.log(favoriteBook.includes("Great"));
-    if (bookName == false) {
-        favoriteBook.push("Great");
-        console.log("makaynax");
-    } else {
-        console.log("kayna");
-    }
-    console.log(favoriteBook)
-}
-addFavoriteBook();
